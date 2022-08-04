@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','Times New Roman', Times, serif;
+}
+.login{
+    border: 1px solid grey;
+    width: 70vh;
+    height:80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+
+
+}
+h1{
+    color: rgb(0, 81, 255);
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing:1px;
+    margin-bottom: 0px;
+    /* line-height: 12px; */    
+}
+p{
+    font-weight: 600;
+}
+.formbox{
+    border: 1px solid rgb(155, 147, 147);
+    display: block;
+    height: 40vh;
+    width: 40vh;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 7px 7px 5px #aaaaaa;
+
+
+}
+input {
+    padding:7px;
+    width: 80%;
+    border: 0.2px solid rgb(131, 127, 127);
+    border-radius: 2px;
+    margin: 5px 0px;
+    outline: none;
+}
+#login{
+    background-color: rgb(13, 87, 224);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 7px;
+    width: 85%;
+    border-radius: 4px;
+    margin: 5px 0px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 87, 224);
+    margin: 15px 0px;
+}
+#sign{
+    background-color: rgb(30, 155, 14);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 7px;
+    width: 85%;
+    border-radius: 2px;
+    margin: 25px 0px;
+}
+hr {
+    width: 80%;
+    margin-top:15px;
+}
